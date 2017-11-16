@@ -200,8 +200,8 @@
     </div>
   </div> <br><br>
   <div class="section">
-    <div class="figure pull-left">
-    <img src="img/terrenos.jpg" class="img-responsive" alt="">
+    <div class="figure pull-left" data-toggle="modal" data-target="#img-content">
+      <img src="img/terrenos.jpg" class="img-responsive" alt="">
     </div>
 
     <div class="puntos pull-right">
@@ -209,7 +209,7 @@
       <p class="textop"><b style="color: #81A41F;">Lotes</b> desde <b style="color: #81A41F;">390m2</b> hasta <b style="color: #81A41F;">587m2</b>  precio desde  <b style="color: #81A41F;">$160 el m2</b> . Escriturados al momento. <b style="color: #81A41F;">Precios</b> disponibles en <b style="color: #81A41F;">6, 12 y 24 meses</b> pregunta por nuestros <b style="color: #81A41F;">precios</b> por pago de <b style="color: #81A41F;">contado</b>.</p>
 
       <div style="text-align: center; margin-top: 9%;">
-      <a class="btn btn-success btn-outline btn-lg" data-scroll href="#CONTACTO">¡COTIZA TU LOTE AHORA!</a>
+      <a class="btn btn-success btn-outline btn-lg" data-toggle="modal" data-target="#myModal" href="#CONTACTO">¡COTIZA TU LOTE AHORA!</a>
       </div>
         <!-- <div class="row">
           <div class="col-md-2">
@@ -255,7 +255,8 @@
     <p class="text-center tit2">Lotes Residenciales </p>
     <p class="subtit2 text-center">¿Desea sentar su patrimonio en una zona de tranquilidad pero al mismo tiempo disfrutar de los mejores servicios y lugares de la ciudad?, entonces  CEIBAS ZIZILCHE  es una excelente opción.</p>
     <div style="text-align: center; margin-top: 5%;">
-      <a class="btn btn-danger btn-outline btn-lg" data-scroll href="#CONTACTO">¡COTIZA TU LOTE AHORA!</a>
+      <a class="btn btn-danger btn-outline btn-lg"  href="#CONTACTO" data-toggle="modal" data-target="#myModal">¡COTIZA TU LOTE AHORA!</a>
+    <!--    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
   </div>
   </div>
 </div>
@@ -307,7 +308,58 @@
 
 </section>
 
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- <h4 class="modal-title">Modal Header</h4> -->
+        </div>
+        <div class="modal-body">
+          <form id="contact" method="post" class="form" role="form">
+<div class="row">
+<div class=" col-md-12 form-group">
+  <!-- <label for="">Nombre</label> -->
+<input class="form-control" id="name" name="name" placeholder="Escribe tu nombre completo" type="text" required  />
+</div>
+<div class=" col-md-12 form-group">
+<input class="form-control" id="name" name="name" placeholder="Escribe tu número teléfonico" type="text" required  />
+</div>
+<div class=" col-md-12 form-group">
+<input class="form-control" id="email" name="email" placeholder="Escribe tu correo" type="email" required />
+</div>
+</div>
+<textarea class="form-control" id="message" name="message" placeholder="Escribe tu comentario" rows="5"></textarea>
+<br />
+<div class="row">
+<div class="col-xs-12 col-md-12 form-group">
+<button class="btn btn-success pull-right" type="submit">ENVIAR</button>
+</div>
+</div>
+</form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
+  <div class="modal fade" id="img-content" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div> -->
+        <div class="modal-body modal-imgb">
+          <img src="img/terrenos.jpg" class="img-responsive img-modal" alt="">
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
 <footer>
 <p>Derechos de autor 2017 © | CEIBAS </p>

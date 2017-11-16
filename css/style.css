@@ -171,6 +171,7 @@ background-attachment: fixed;
 }
 .figure{
   width: 50%;
+  cursor: pointer;
 }
 .puntos{
   /*border: 2px red solid;*/
@@ -248,4 +249,29 @@ footer p{
 	bottom:20px;
 	right:20px;
 	z-index: 100;
+}
+
+/*.modal-dialog{
+  border: 2px solid red !important;
+}
+
+.modal-body{
+  border: 2px solid yellow;
+}
+
+.modal-header{
+  border: 2px solid blue;
+}
+
+.img-modal{
+  border: 2px solid red;
+}*/
+
+/*.img-modal{
+  border: 2px solid red;
+}*/
+
+.modal-imgb{
+  background-color: none;
+  padding: 0px;
 }
