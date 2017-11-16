@@ -318,8 +318,11 @@
           <!-- <h4 class="modal-title">Modal Header</h4> -->
         </div>
         <div class="modal-body">
+          <h3 style="margin-top: 1%;margin-bottom: 3%; text-align: center;">Nuestros asesores le darán toda la información que necesita ¡CONTACTANOS AHORA!</h3>
           <form id="contact" method="post" class="form" role="form">
+
 <div class="row">
+
 <div class=" col-md-12 form-group">
   <!-- <label for="">Nombre</label> -->
 <input class="form-control" id="name" name="name" placeholder="Escribe tu nombre completo" type="text" required  />
