@@ -246,7 +246,10 @@ de Mérida.</p>
         <p class="text-cir">Lotes desde <span>330m2</span> hasta <span>587m2</span> y precio desde <span>$160 m2.</span> Escrituras al momento.
         Precios disponibles en <span>6, 12 y 24 meses</span> pregunta por nuestros precios por pago de contado.
         </p>
-        <div class="btn-buton"> Cotiza tu Lote</div>
+        <!-- <a data-scroll href="#CONTACTO" aria-pressed="true"><div class="btn-buton"> Cotiza tu Lote</div></a> -->
+         <div style="text-align: center; margin-top: 5%;">
+      <a class="btn btn-danger btn-outline btn-lg"  data-scroll href="#CONTACTO" aria-pressed="true"">¡COTIZA TU LOTE AHORA!</a>
+  </div>
       </div>
     </div>
   </div>
@@ -348,7 +351,7 @@ de Mérida.</p>
   </div> -->
 
 <footer>
-<p>Derechos de autor 2017 © | CEIBAS </p>
+<p>Derechos de autor 2017 © | CEIBAS ZIZILCHE </p>
 </footer>
 
 <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
