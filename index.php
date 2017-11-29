@@ -138,34 +138,41 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section"><br><br><br>
           <div class="row margen">
             <div class="col-md-3">
               <img src="img/galeria.jpg" class="img-responsive alto-asig width-asig">
+              <p class="tit-img">Galerías</p>
             </div>
             <div class="col-md-3">
               <img src="img/museo.jpg"
               class="img-responsive alto-asig width-asig">
+              <p class="tit-img">Museo Maya</p>
             </div>
             <div class="col-md-3">
               <img src="img/altabrisa.jpg"
               class="img-responsive alto-asig width-asig">
+              <p class="tit-img">Altabrisa</p>
             </div>
             <div class="col-md-3">
               <img src="img/StarMedica.jpg"
               class="img-responsive alto-asig width-asig">
+              <p class="tit-img">Star Medica</p>
             </div>
           </div>
           <div class="row margen">
             <div class="col-md-4">
             <img src="img/catedral.jpg" class="img-responsive alto-asig width-asig">
+            <p class="tit-img">Catedral de Mérida</p>
           </div>
           <div class="col-md-4">
             <img src="img/monumento.jpg" class="img-responsive alto-asig width-asig">
+            <p class="tit-img"> Monumento a la Bandera</p>
           </div>
           <div class="col-md-4">
             <img src="img/CHICHEn2.jpg"
             class="img-responsive alto-asig width-asig">
+            <p class="tit-img">Chichén Itzá</p>
           </div>
           </div>
     </div>
@@ -248,23 +255,23 @@ de Mérida.</p>
 <section class="seccion6" id="CONTACTO">
   <div class="col-md-offset-3 col-md-5">
     <h2 class="h1-c">CONTACTANOS</h2>
-    <form role="form" id="Formulario" action="" method="POST">
+    <form role="form" id="Formulario">
                 <div class="form-group">
-                    <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre *" required autofocus />
+                    <input type="text" class="form-control" id="" name="Nombre" placeholder="Nombre *" required/>
                 </div>            
                 <div class="form-group">
                     
-                    <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Correo *" required />
+                    <input type="email" class="form-control" id="" name="Correo" placeholder="Correo *" required />
                 </div>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="tel" class="form-control" id="Empresa" name="Empresa" placeholder="Telefono *" required />
+                      <input type="tel" class="form-control" id="" name="Empresa" placeholder="Telefono *" required />
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="Empresa" name="Empresa" placeholder="Ciudad *" required />
+                      <input type="text" class="form-control" id="" name="Empresa" placeholder="Ciudad *" required />
                     </div>
                   </div>
                 </div>
