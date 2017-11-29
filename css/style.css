@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,p{
 .header_top{
     width:100%;
     height:10px;
-  background:#737D40;
+  background:#3A5E0A;
 }
 .menu{
   width: 100%;
@@ -182,10 +182,12 @@ background-repeat: no-repeat;
 }
 
 .seccion5{
+  /*border: 2px red solid;*/
   background: url("../img/fondo.jpg") no-repeat;
   width: 100%;
   background-size: 100% 100%;
   overflow: hidden;
+  height: 660px;
 }
 
 .seccion6{
@@ -263,6 +265,16 @@ background-repeat: no-repeat;
 
 
 .tit-img{
+  position: absolute;
+  z-index: 3;
+  top: 25px;
+  /*background-color: rgba(255,255,255,0.8);*/
+  padding: 10px;
+  left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.tit-img1{
   position: absolute;
   z-index: 3;
   top: 25px;

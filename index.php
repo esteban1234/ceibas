@@ -147,7 +147,7 @@
             <div class="col-md-3">
               <img src="img/museo.jpg"
               class="img-responsive alto-asig width-asig">
-              <p class="tit-img">Museo Maya</p>
+              <p class="tit-img1">Museo Maya</p>
             </div>
             <div class="col-md-3">
               <img src="img/altabrisa.jpg"
@@ -286,7 +286,7 @@ de Mérida.</p>
                 <div id="respuesta" style="display: none;"></div>
             </form>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
      <img src="img/ceibas.png" class="img-responsive img-cei">
     <p class="tit-p">Nuestros asesores le darán toda la información que necesita</p>
     <p class="dir-p">Calle 7-A #279-E por 38 y 40 Fraccionamiento del Norte <br/> 
