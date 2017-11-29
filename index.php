@@ -139,24 +139,24 @@
     </div>
 
     <div class="section">
-          <div class="row">
-              <div class="col-md-3">
-              <img src="img/galeria.jpg" class="img-responsive alto-asig">
+          <div class="row margen">
+            <div class="col-md-3">
+              <img src="img/galeria.jpg" class="img-responsive alto-asig width-asig">
             </div>
             <div class="col-md-3">
               <img src="img/museo.jpg"
-              class="img-responsive alto-asig">
+              class="img-responsive alto-asig width-asig">
             </div>
             <div class="col-md-3">
               <img src="img/altabrisa.jpg"
-              class="img-responsive alto-asig">
+              class="img-responsive alto-asig width-asig">
             </div>
             <div class="col-md-3">
               <img src="img/StarMedica.jpg"
-              class="img-responsive alto-asig">
+              class="img-responsive alto-asig width-asig">
             </div>
           </div>
-          <div class="row">
+          <div class="row margen">
             <div class="col-md-4">
             <img src="img/catedral.jpg" class="img-responsive alto-asig width-asig">
           </div>
@@ -236,9 +236,10 @@ de Mérida.</p>
     <div class="col-md-6">
       <div class="circulo">
         <p class="text-seg">El el momento de invertir seguro.</p>
-        <p class="text-cir">Lotes desde <i>330m2</i> hasta <i>587m2</i> y precio desde <i>$160 m2.</i> Escrituras al momento.
-        Precios disponibles en <i>6, 12 y 24 meses</i> pregunta por nuestros precios por pago de contado.
+        <p class="text-cir">Lotes desde <span>330m2</span> hasta <span>587m2</span> y precio desde <span>$160 m2.</span> Escrituras al momento.
+        Precios disponibles en <span>6, 12 y 24 meses</span> pregunta por nuestros precios por pago de contado.
         </p>
+        <div class="btn-buton"> Cotiza tu Lote</div>
       </div>
     </div>
   </div>
@@ -246,9 +247,10 @@ de Mérida.</p>
 
 <section class="seccion6" id="CONTACTO">
   <div class="col-md-offset-3 col-md-5">
-    <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
+    <h2 class="h1-c">CONTACTANOS</h2>
+    <form role="form" id="Formulario" action="" method="POST">
                 <div class="form-group">
-                    <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="nOMBRE *" required autofocus />
+                    <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre *" required autofocus />
                 </div>            
                 <div class="form-group">
                     
@@ -272,16 +274,17 @@ de Mérida.</p>
                     <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
                 </div>
                 <div class="form-group">                
-                    <input type="submit" class="btn btn-primary" value="Enviar">                
+                    <input type="submit" class="btn" value="Enviar">                
                 </div>
                 <div id="respuesta" style="display: none;"></div>
             </form>
   </div>
   <div class="col-md-4">
-    <p>Nuestros asesores le darán toda la información que necesita</p>
-    <p>Calle 7-A #279-E por 38 y 40 Fraccionamiento del Norte
-      info@zizilche.com
-      (999) 40-61-108
+     <img src="img/ceibas.png" class="img-responsive img-cei">
+    <p class="tit-p">Nuestros asesores le darán toda la información que necesita</p>
+    <p class="dir-p">Calle 7-A #279-E por 38 y 40 Fraccionamiento del Norte <br/> 
+      info@zizilche.com <br/>
+      (999) 40-61-108 <br/>
       Mérida Yucatán, México. C.P 97210
     </p>
   </div>

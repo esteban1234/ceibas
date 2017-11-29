@@ -114,7 +114,7 @@ background-repeat: no-repeat;
   margin: 120px auto;
   background: rgba(49, 45, 59, 0.6);
   color: #fff;
-  padding: 100px 40px;
+  padding: 80px 40px;
 }
 /*.seccion2{
 	width: 100%;
@@ -196,17 +196,75 @@ background-repeat: no-repeat;
 
 .text-seg{
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   margin: 0px;
   width: 100%;
+  color: #F5ECCE;
+  font-family: 'Lora', serif;
 }
 
 .text-cir{
   text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 18px;
 }
 
-.text-cir i{
+.tit-p{
+  font-size: 22px;
+  color: #F5ECCE;
+}
+
+.text-cir span{
   color: green;
+}
+
+.margen div{
+  padding: 0px !important;
+}
+
+.form-control{
+  /*border: 2px solid red;*/
+  border-radius: 0px !important; 
+}
+
+
+.img-cei{
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.tit-p{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dir-p{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-buton{
+  width: 50%;
+  margin: 30px auto;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #FCDB79;
+}
+
+.h1-c{
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+
+form{
+  /*border: 2px solid red;*/
+  padding: 30px;
 }
 /*--------------FOOTER----------*/
 footer{
