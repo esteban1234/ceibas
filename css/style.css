@@ -114,7 +114,7 @@ background-repeat: no-repeat;
   margin: 120px auto;
   background: rgba(49, 45, 59, 0.6);
   color: #fff;
-  padding: 140px 40px;
+  padding: 100px 40px;
 }
 /*.seccion2{
 	width: 100%;
@@ -192,6 +192,21 @@ background-repeat: no-repeat;
   background: url("../img/cincontacto.png");
   width: 100%;
   overflow: hidden;
+}
+
+.text-seg{
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  width: 100%;
+}
+
+.text-cir{
+  text-align: center;
+}
+
+.text-cir i{
+  color: green;
 }
 /*--------------FOOTER----------*/
 footer{

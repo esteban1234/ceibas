@@ -149,7 +149,7 @@
             </div>
             <div class="col-md-3">
               <img src="img/altabrisa.jpg"
-              class="img-responsive img-rounded alto-asig">
+              class="img-responsive alto-asig">
             </div>
             <div class="col-md-3">
               <img src="img/StarMedica.jpg"
@@ -235,10 +235,10 @@ de Mérida.</p>
     </div>
     <div class="col-md-6">
       <div class="circulo">
-        <span>El el momento de invertir seguro.</span>
-        <span>Lotes desde <i>330m2</i> hasta <i>587m2</i> y precio desde <i>$160 m2.</i> Escrituras al momento.
+        <p class="text-seg">El el momento de invertir seguro.</p>
+        <p class="text-cir">Lotes desde <i>330m2</i> hasta <i>587m2</i> y precio desde <i>$160 m2.</i> Escrituras al momento.
         Precios disponibles en <i>6, 12 y 24 meses</i> pregunta por nuestros precios por pago de contado.
-        </span>
+        </p>
       </div>
     </div>
   </div>
