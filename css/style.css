@@ -1,3 +1,10 @@
+
+h1,h2,h3,h4,h5,p{
+  font-family: 'Lora', serif;
+}
+
+
+
 .header_top{
     width:100%;
     height:10px;
@@ -13,29 +20,20 @@
 }
 nav{
   /*border: 2px red solid;*/
-   margin-top: 2%;
-  margin-right: 5%;
+   margin-top: 2.5%;
+  margin-right: 2%;
 }
 nav ul li{
   float: left;
   list-style: none;
-  padding: 20px;
+  padding: 20px 10px;
 }
 nav ul li a.selector{
-  font-family: 'Roboto', sans-serif;
-  font-size: 19px;
+  font-family: 'Lora', serif;
+  font-size: 16px;
   text-decoration: none;
   color: #737D40;
 }
-
-/*.textoh{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    color: #000;
-    margin-top: 2.5%;
-    margin-right: 5%;
-}*/
 
 .banner{
  position: relative;
@@ -53,21 +51,7 @@ background-repeat: no-repeat;
   height: 579px;
   overflow: hidden;
 }
-.tit{
-  text-transform: uppercase; 
-  color: #fff;
-  margin-top: 10%; 
-  font-size: 60px;
-}
-.subtit{
-  /*text-transform: uppercase; */
-  color: #fff;
-  margin: 0 auto;
-  margin-top: 3%; 
-  font-size: 30px;
-  width: 50%;
-  font-family: 'Montserrat', sans-serif;
-}
+
 .btn-outline {
     background-color: transparent;
     color: inherit;
@@ -75,7 +59,7 @@ background-repeat: no-repeat;
 }
 
 .btn-danger.btn-outline {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
   color: #fff;
   border: 1px #fff solid;
 }
@@ -85,143 +69,94 @@ background-repeat: no-repeat;
     background-color: #737D40;
 }
 .seccion1{
+  /*border: 2px red solid;*/
 	width: 100%;
+  height: 1200px;
+  background: url('../img/hoja-ceibas-1.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 	overflow: hidden;
 	/*border: 2px red solid;*/
 	padding: 5% 0% 0% 0%;
 }
+.figure{
+  /*border: 2px red solid;*/
+  /*width: 1500px;
+  height: 600px;
+  background: url('../img/mapa-ceibas.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;*/
+}
 .texto{
   /*font-family: 'Roboto', cursive;*/
   /*font-family: 'Timmana', sans-serif;*/
-  font-family: 'Contrail One', cursive;
+  font-family: 'Lora', serif;
   /*font-family: italic;*/
   /*font-style: italic;*/
   font-size: 16px;
   text-align: justify;
 }
-.icono{
-  text-align: right;
-  /*border: 2px red solid;*/
-}
-/*.mapa{
-  width: 100%;
-}
-.mapa iframe{
-  width: 100%;
-}*/
-.seccion2{
+
+/*.seccion2{
 	width: 100%;
 	overflow: hidden;
-	/*border: 2px red solid;*/
-	padding: 5% 0% 5% 0%;
-	background-color: #fbfcfc;
-}
-
-.textop{
-  font-family: 'Roboto', sans-serif;
-  /*font-family: 'Timmana', sans-serif;*/
-  /*font-family: 'Contrail One', cursive;*/
-  /*font-family: italic;*/
-  /*font-style: italic;*/
-  font-size: 30px;
-  text-align: left;
-}
-b{
-  font-size: 35px;
-}
-/*.card-base > .card-icon {
-        text-align: center;
-        position: relative;
-    }
-
-.imagecard { 
-    z-index: 2;
-    display: block;
-    position: relative;
-    width: 88px;
-    height: 88px;
-    border-radius: 50%;
-    border: 5px solid white;
-    box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    margin: 0 auto;
-    color: white;
-}
-.card-base > .card-icon > .card-data {
-    margin-top: -24px;
-    background: ghostwhite;
-    border: 1px solid #e0e0e0;
-    padding: 15px 0 10px 0;
-     box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    }
-    #widgetCardIcon {
-        background: #7FA618 !important;
-        font-size: 28px;
-        line-height: 78px;
-    }
-*/
-    .banner2{
- position: relative;
-width: 100%;
-height:479px;
-background: url('../img/uno.jpg') center;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
- overflow: hidden;
-}
-.figure{
-  width: 50%;
-  cursor: pointer;
-}
-.puntos{
-  /*border: 2px red solid;*/
-  width: 45%;
-  margin-right: 3%;
-  margin-top: 5%;
-}
-.fondo2{
-  background-color: rgba(0,0,0,.4);
-  width: 100%;
-  height: 479px;
-  overflow: hidden;
-}
-.tit2{
-  text-transform: uppercase; 
-  color: #fff;
-  margin-top: 3%; 
-  font-size: 60px;
-}
-.subtit2{
-  /*text-transform: uppercase; */
-  color: #fff;
-  margin: 0 auto;
-  margin-top: 1%; 
-  font-size: 30px;
-  width: 70%;
-  /*font-family: 'Montserrat', sans-serif;*/
-  /*font-family: 'Timmana', sans-serif;*/
-  font-family: 'Contrail One', cursive;
-}
+	padding: 0% 0% 5% 0%;
+}*/
 
 .seccion3{
 	width: 100%;
 	overflow: hidden;
 	/*border: 2px red solid;*/
 	padding: 5% 0% 5% 0%;
+  background-color: #B1A097;
 }
-.logo2{
-  width: 50%;
-  margin-left: 18%;
-  margin-bottom: 0px;
+.colorb{
+  color: #fff;
+   font-family: 'Lora', serif;
+   font-size: 40px;
 }
-.contact-form {
-    margin-top:10%;
+.tamano{
+   font-family: 'Lora', serif;
+   font-size: 40px;
+}
+.texto2{
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  color: #fff;
+}
+.negro{
+  color: #000;
+  font-weight: none;
+}
+.seccion4{
+  width: 100%;
+  overflow: hidden;
+  /*border: 2px red solid;*/
+  padding: 0% 0% 5% 0%;
+  /*background-color: #B1A097;*/
+}
+.cinta{
+  width: 100%;
+  height: 100px;
+  background: url('../img/cinta.png') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.textcinta{
+  font-family: 'Lora', serif;
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  margin-top: 1.5%;
 }
 /*--------------FOOTER----------*/
 footer{
   width: 100%;
   background:#737D40;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
   height: 100px;
   /*font-size: 20px;*/
   overflow: hidden;
@@ -250,26 +185,6 @@ footer p{
 	right:20px;
 	z-index: 100;
 }
-
-/*.modal-dialog{
-  border: 2px solid red !important;
-}
-
-.modal-body{
-  border: 2px solid yellow;
-}
-
-.modal-header{
-  border: 2px solid blue;
-}
-
-.img-modal{
-  border: 2px solid red;
-}*/
-
-/*.img-modal{
-  border: 2px solid red;
-}*/
 
 .modal-imgb{
   background-color: none;

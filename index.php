@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Timmana|Contrail+One" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Timmana|Source+Sans+Pro|Contrail+One|Spectral+SC|Lora" rel="stylesheet">
     <script src="js/general.js"></script>
 
 
@@ -50,9 +51,11 @@
 
     <nav class="pull-right">
        <ul class="">
-          <li class=""><a class="selector" data-scroll href="#INICIO" aria-pressed="true" id="active">INDEX</a></li>
-          <li class=""><a class="selector" data-scroll href="#NOSOTROS" aria-pressed="true">NOSOTROS</a></li>
-          <li class=""><a class="selector" data-scroll href="#SERVICIOS" aria-pressed="true" >MASTER PLAN</a></li>
+          <li class=""><a class="selector" data-scroll href="#INICIO" aria-pressed="true" id="active">INICIO</a></li>
+          <li class=""><a class="selector" data-scroll href="#DESARROLLO" aria-pressed="true">EL DESARROLLO</a></li>
+          <li class=""><a class="selector" data-scroll href="#UBICACION" aria-pressed="true" >UBICACION</a></li>
+          <li class=""><a class="selector" data-scroll href="#PLUSVALIA" aria-pressed="true">PLUSVALIA</a></li>
+          <li class=""><a class="selector" data-scroll href="#PLAN" aria-pressed="true">MASTER PLAN</a></li>
           <li class=""><a class="selector" data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a></li>
 
         </ul>
@@ -62,269 +65,169 @@
 
 
 <div class="banner">
-  <!-- <div class="fondo"> -->
-    <!-- <p class="text-center tit">Lotes Residenciales </p>
-    <p class="subtit text-center">Adquiere tu patrimonio hoy y disfruta de los beneficios el día de mañana</p>
-    <div style="text-align: center; margin-top: 5%;">
-      <a class="btn btn-danger btn-outline btn-lg" data-scroll href="#CONTACTO">¡CONTACTANOS!</a>
-  </div> -->
-  <!-- </div> -->
 </div>
 </div>
 
 
-<section class="seccion1" id="NOSOTROS">
+<section class="seccion1" id="DESARROLLO">
   <div class="section">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <h1 style="color: #727A42;">CEIBAS ZIZILCHE</h1>
-            <h3 style="color: #7FA51A;">Haz tu vida en el norte de mérida</h3>
-            <p class="texto">Ubicada al NORTE DE MERIDA su ambiente relajado y en armonía con el entorno natural, la han convertido en una zona ideal para vivir. <br><br>
-            Está ideado y ubicado estratégicamente para adquirir una alta plusvalía en constante incremento.
-            Se localiza en el kilómetro 15 de la carretera Mérida-Progreso, en una zona de gran expectativa de exclusividad residencial. Cuenta con acceso fácil y eficiente al encontrarse a sólo 10 km de la carretera comunicándose fácilmente con las avenidas más importantes de la Mérida, cercanas a las mejores escuelas, restaurantes. <br><br>
-
-            Su ambiente relajado y en armonía con el entorno natural, la han convertido en una zona ideal para vivir. <br><br>
-            ¡Adquiere tu patrimonio hoy y disfruta de los beneficios el día de mañana! 
+            <h3 style="color: #7FA51A;">Tu vida en el Norte de Mérida</h3>
+            <p class="texto">Invertir en Ceibas Zizilche, es invertir en una propiedad para construir al Norte de Mérida, zona reconocida por su exclusividad residencial y alta plusvalía, que ofrece todas las facilidades para vivir con comodidad en un entorno relajado y en armonía con la naturaleza. <br>
+            El desarrollo se localiza en el kilómetro 15 de la carretera Mérida-Progreso, en
+            una zona de gran expectativa de exclusividad residencial, con acceso a tan sólo 5
+            kms de la carretera, comunicándolo de manera sencilla y rápida con las avenidas
+            más importantes de la ciudad, cerca de las plazas más exclusivas, escuelas,
+            restaurantes e incluso hospitales para tu seguridad, tranquilidad y comodidad.
+            Su ambiente relajado y en armonía con el entorno natural, la han convertido en
+            una zona ideal para vivir. Gracias a la cercanía con Puerto Progreso, se ha
+            convertido en la Zona Económica Especial de México, este es el mejor momento
+            para adquirir una propiedad con excelentes oportunidades de rendimiento. <br><br>
+            ¡Adquiere tu patrimonio hoy y disfruta de los beneficios el día de mañana!
             </p>
           </div>
           <div class="col-md-6">
-            <img src="img/ceibas.jpg"
+            <img src="img/logo.png"
             class="img-responsive">
           </div>
         </div>
       </div>
-    </div>
+    </div> <br><br>
 
-    <div class="section" style="padding: 5% 0%; background-color: #abb483 ; ">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-1 icono">
-            <i class="fa fa-usd fa-5x" aria-hidden="true"></i>
-          </div>
-          <div class="col-md-2">
-            <h4 class="text-left">FINANCIAMIENTO</h4>
-            <p class="">Ofrecemos todas las opciones de financiamiento para la adquisición de una propiedad con características competitivas.</p>
-          </div>
-          <div class="col-md-2 icono">
-            <i class="fa fa-heart fa-4x" aria-hidden="true"></i>
-          </div>
-          <div class="col-md-2">
-            <h4 class="text-left">OFERTA INMOBILIARIA</h4>
-            <p class="text-left">Nuestra oferta inmobiliaria se basa en mostrar un producto terminado, que cumpla completamente con las expectativas del clientes.</p>
-          </div>
-          <div class="col-md-2 icono">
-            <i class="fa fa-leaf fa-4x" aria-hidden="true"></i>
-          </div>
-          <div class="col-md-2">
-            <h4 class="text-left">ÁREAS VERDES</h4>
-            <p class="text-left">La naturaleza es indispensable para alcanzar una alta calidad de vida, por lo cual les ofrecemos grandes áreas verdes donde podrán disfrutar de un entorno saludable y fresco.</p>
-          </div>
-        </div> 
-        <div class="row">
-          <div class="col-md-1 icono">
-            <i class="fa fa-cogs fa-4x" aria-hidden="true"></i>
-          </div>
-          <div class="col-md-2">
-            <h4 class="text-left">SERVICIOS DE FÁCIL ACCESO</h4>
-            <p class="text-left">Pensamos en todos los servicios cotidianos que requieren sus habitantes, tomando en cuenta sus necesidades básicas de educación, salud y entretenimiento.</p>
-          </div>
-          <div class="col-md-2 icono">
-            <i class="fa fa-home fa-4x" aria-hidden="true"></i>
-          </div>
-          <div class="col-md-2 text-center">
-            <h4 class="text-left">DESARROLLOS ARMÓNICOS</h4>
-            <p class="text-left">Tenemos como visión planear desarrollos armónicos que sobrepasen los estándares de excelencia que privilegian la calidad de vida.</p>
-          </div>
-          <div class="col-md-2 icono">
-            <i class="fa fa-video-camera fa-4x" aria-hidden="true"></i>
-          </div>
-          <div class="col-md-2 text-center">
-            <h4 class="text-left">ENTORNO SEGURO</h4>
-            <p class="text-left">Incluimos altos estándares de vigilancia, seguridad completa e integración urbana, cuidando en todo momento la privacidad de nuestros clientes.</p>
-          </div>
-        </div>
-      </div>
+    <div class="figure" id="UBICACION">
+      <img src="img/mapa-ceibas.png" alt="" class="img-responsive" width="100%">
     </div>
-<!-- <div class="mapa">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14683.233946160979!2d-89.70307279403909!3d21.149227604260688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f55de301e5b78a1%3A0x6538c66d1c41bea7!2sDzidzilch%C3%A9%2C+Yuc.!5e1!3m2!1ses!2smx!4v1510704759718" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div> -->
   </section>
 
 
-<section class="seccion2" id="SERVICIOS">
+<!-- <section class="seccion2" id="UBICACION">
+      
+</section> -->
+
+<section class="seccion3" id="PLUSVALIA">
   <div class="section">
-    <div class="container">
-      <!-- <h1 class="text-center" style="color: #727A42;">Master Plan</h1> <br><br> -->
-      <!-- <div class="row">
-        
-
-
-    <div class = "col-md-3">
-        <div class="card-base">
-          <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-exclamation-circle"></span></a>
-          <div class="card-data widgetCardData">
-          <h2 class="box-title" style="color: #767A5B;">Terreno <br> excelente</h2></div>
-          </div>
-          </div>
-    </div>
-
-    <div class = "col-md-3">
-        <div class="card-base">
-          <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-usd"></span></a>
-          <div class="card-data widgetCardData">
-          <h2 class="box-title" style="color: #767A5B;">Excelente <br> precio</h2></div>
-          </div>
-          </div>
-    </div>
-
-    <div class = "col-md-3">
-        <div class="card-base">
-          <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-line-chart"></span></a>
-          <div class="card-data widgetCardData">
-          <h2 class="box-title" style="color: #767A5B;">Inversión <br> segura</h2></div>
-          </div>
-          </div>
-    </div>
-
-    <div class = "col-md-3">
-        <div class="card-base">
-          <div class="card-icon"><a href="#" title="Widgets" id="widgetCardIcon" class="imagecard"><span class="fa fa-map-marker"></span></a>
-          <div class="card-data widgetCardData">
-          <h2 class="box-title" style="color: #767A5B;">Excelente ubicación</h2></div>
-          </div>
-          </div>
-    </div>
-
-   
-      </div> -->
-    </div>
-  </div> <br><br>
-  <div class="section">
-    <div class="figure pull-left" data-toggle="modal" data-target="#img-content">
-      <img src="img/terrenos.jpg" class="img-responsive" alt="">
-    </div>
-
-    <div class="puntos pull-right">
-
-      <p class="textop"><b style="color: #81A41F;">Lotes</b> desde <b style="color: #81A41F;">390m2</b> hasta <b style="color: #81A41F;">587m2</b>  precio desde  <b style="color: #81A41F;">$160 el m2</b> . Escriturados al momento. <b style="color: #81A41F;">Precios</b> disponibles en <b style="color: #81A41F;">6, 12 y 24 meses</b> pregunta por nuestros <b style="color: #81A41F;">precios</b> por pago de <b style="color: #81A41F;">contado</b>.</p>
-
-      <div style="text-align: center; margin-top: 9%;">
-      <a class="btn btn-success btn-outline btn-lg" data-toggle="modal" data-target="#myModal" href="#CONTACTO">¡COTIZA TU LOTE AHORA!</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5"><p class="tamano"><b class="colorb">EL DESTINO</b><br>
+              <b class="colorb">IDEAL PARA </b> <br>
+              VIVIR E INVERTIR<br>
+              EN UN<br>
+              PATRIMONIO</p></div>
+          <div class="col-md-7"><p class="texto2">
+            <b class="negro">Yucatán</b> es la cuna de las maravillas, crecerá en los próximos años con la llegada de
+            nuevos negocios, <b class="negro">Mérida</b> ha sido considerada a nivel nacional como una de las mejores
+            ciudades de México, para la vida familiar, los negocios y las inversiones, dada su alta
+            calidad de vida, así como su seguridad , tranquilidad y plusvalía, <b class="negro">nombrada una de las 3
+              mejores ciudades de México para vivir y con alternativas para invertir.</b> <br><br>
+            La paz de nuestra ciudad, la belleza de sus edificios y calles, hace que sea un lugar de
+            elegancia y contraste con sus casas coloniales, sus ruinas mayas y su arquitectura; esto
+            ha convertido a la Blanca Mérida en el destino ideal para vivir e <b class="negro">invertir en un
+              patrimonio.</b> <br><br>
+            Existe amplia oferta de zonas residenciales de todos los niveles, con alta plusvalía, que
+            cuentan con la cercanía de escuelas, universidades, hospitales, centros comerciales,
+            gimnasios, restaurantes, teatros, parques y cines.
+            Ubicada a tan solo <b class="negro">25 minutos</b> de las <b class="negro">paradisíacas playas yucatecas</b>, y está comunicada a
+            ellas a través de una carretera de amplios carriles, que facilitan el traslado a este oasis
+            todos los días. Estas cualidades hacen que Mérida sea un polo de atracción para el
+            turismo y de inversionistas nacionales e internacionales.
+          </p></div>
+        </div>
       </div>
-        <!-- <div class="row">
-          <div class="col-md-2">
-          </div>
-          <div class="col-md-6">
-            <h4 class="text-left">Lotes Desde 390 M2 hasta 587m2</h4>
-          </div>
-          </div> <br><br>
-          <div class="row">
-          <div class="col-md-2">
-          </div>
-          <div class="col-md-6">
-            <h4 class="text-left">Precio desde  $160 el m2 </h4>
-          </div>
-        </div><br><br>
-        <div class="row">
-          <div class="col-md-2">
-          </div>
-          <div class="col-md-6">
-            <h4 class="text-left">Escriturados al momento</h4>
-          </div>
-          </div><br><br>
-          <div class="row">
-          <div class="col-md-2">
-          </div>
-          <div class="col-md-6 text-center">
-            <h4 class="text-left">Precios disponibles en 6 12 y 24 meses </h4>
-          </div>
-        </div><br><br>
-        <div class="row">
-          <div class="col-md-2">
-          </div>
-          <div class="col-md-6 text-center">
-            <h4 class="text-left">Precios por pago de contado</h4>
-          </div>
-        </div> -->
     </div>
-  </div>
+
+    <div class="section">
+          <div class="col-md-3">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive">
+          </div>
+          <div class="col-md-3">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive img-rounded">
+          </div>
+          <div class="col-md-3">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive">
+          </div>
+    </div>
 </section>
 
-<div class="banner2">
-  <div class="fondo2">
-    <p class="text-center tit2">Lotes Residenciales </p>
-    <p class="subtit2 text-center">¿Desea sentar su patrimonio en una zona de tranquilidad pero al mismo tiempo disfrutar de los mejores servicios y lugares de la ciudad?, entonces  CEIBAS ZIZILCHE  es una excelente opción.</p>
-    <div style="text-align: center; margin-top: 5%;">
-      <a class="btn btn-danger btn-outline btn-lg"  href="#CONTACTO" data-toggle="modal" data-target="#myModal">¡COTIZA TU LOTE AHORA!</a>
-    <!--    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
-  </div>
-  </div>
-</div>
+<section class="seccion4" id="PLAN">
 
-
-
-
-<section class="seccion3" id="CONTACTO">
-  <h1 class="text-center" style="color: #727A42;">CONTACTANOS</h1>
-
-  <div class="container">
-<div class="row">
-<div class="col-md-6">
-  <figure class="logo2">
-    <img src="img/ceibas.jpg" alt="CEIBAS" class="img-responsive">
-  </figure>
-<h3 style="margin-top: 0px;">Nuestros asesores le darán toda la información que necesita ¡CONTACTANOS AHORA!</h3>
-<hr>
-<address>
-<strong>Email:</strong> <a href="mailto:info@zizilche.com"> info@zizilche.com</a><br>
-<strong>Teléfono:</strong> (999) 40-61-108<br>
-<strong>Horario:</strong> Lun-Vie de 9 am a 6 pm<br>
-<strong>Dirección:</strong> Calle 7-A #279-E por 38 y 40 Fraccionamiento del Norte. <br>Mérida, Yucatán, México.  C.P. 97120
-</address>
-</div>
-    
-<div class="col-md-6 contact-form">
-<form id="contact" method="post" class="form" role="form">
-<div class="row">
-<div class=" col-md-12 form-group">
-  <!-- <label for="">Nombre</label> -->
-<input class="form-control" id="name" name="name" placeholder="Escribe tu nombre completo" type="text" required  />
-</div>
-<div class=" col-md-12 form-group">
-<input class="form-control" id="name" name="name" placeholder="Escribe tu número teléfonico" type="text" required  />
-</div>
-<div class=" col-md-12 form-group">
-<input class="form-control" id="email" name="email" placeholder="Escribe tu correo" type="email" required />
-</div>
-</div>
-<textarea class="form-control" id="message" name="message" placeholder="Escribe tu comentario" rows="5"></textarea>
-<br />
-<div class="row">
-<div class="col-xs-12 col-md-12 form-group">
-<button class="btn btn-success pull-right" type="submit">ENVIAR</button>
-</form>
-</div>
-</div>
+<figure class="cinta">
+  <p class="textcinta">La mejor inversión que asegurara tu futuro.</p>
+</figure> <br><br>
+<div class="container">
+        <div class="row">
+          <div class="col-md-1 col-md-offset-1">
+            <img src="img/dollar.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-left" style="color: #536D2A;">FINANCIAMIENTO</h3>
+            <p class="text-left" style="font-size: 16px;">Ofrecemos todas las opciones de
+financiamiento para la adquisición de una
+propiedad con características competitivas.</p>
+          </div>
+          <div class="col-md-1">
+            <img src="img/herbal-spa-treatment-leaves.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-left" style="color: #536D2A;">CALIDAD DE VIDA</h3>
+            <p class="text-left" style="font-size: 16px;">Estilo de vida de muy alta calidad en una
+atmósfera de tranquilidad y convivencia con la
+naturaleza.</p>
+          </div>
+        </div> <br>
+        <div class="row">
+          <div class="col-md-1 col-md-offset-1">
+            <img src="img/favorite-place.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-left" style="color: #536D2A;">SERVICIOS DE FACIL ACCESO</h3>
+            <p class="text-left" style="font-size: 16px;">Estratégicamente localizado y diseñado para que sus
+habitantes puedan tener acceso de manera sencilla a
+servicios de educación, salud y entretenimiento.</p>
+          </div>
+          <div class="col-md-1">
+            <img src="img/growth.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-4 text-center">
+            <h3 class="text-left" style="color: #536D2A;">INVERSION SEGURA</h3>
+            <p class="text-left" style="font-size: 16px;">Ubicación en una de las zonas de más rápido
+crecimiento en la región, al norte de la ciudad
+de Mérida.</p>
+          </div>
+        </div>
+      </div>
 
 </section>
 
-<div class="modal fade" id="myModal" role="dialog">
+
+<section class="seccion5" id="CONTACTO">
+
+</section>
+
+<!-- <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
-    
-      <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <!-- <h4 class="modal-title">Modal Header</h4> -->
         </div>
         <div class="modal-body">
           <h3 style="margin-top: 1%;margin-bottom: 3%; text-align: center;">Nuestros asesores le darán toda la información que necesita ¡CONTACTANOS AHORA!</h3>
           <form id="contact" method="post" class="form" role="form">
-
 <div class="row">
-
 <div class=" col-md-12 form-group">
-  <!-- <label for="">Nombre</label> -->
 <input class="form-control" id="name" name="name" placeholder="Escribe tu nombre completo" type="text" required  />
 </div>
 <div class=" col-md-12 form-group">
@@ -346,23 +249,23 @@
       </div>
       
     </div>
-  </div>
+  </div> -->
 
-  <div class="modal fade" id="img-content" role="dialog">
+<!--   <div class="modal fade" id="img-content" role="dialog">
     <div class="modal-dialog modal-lg">
-    
-      <!-- Modal content-->
       <div class="modal-content">
-        <!-- <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div> -->
         <div class="modal-body modal-imgb">
           <img src="img/terrenos.jpg" class="img-responsive img-modal" alt="">
         </div>
       </div>
       
     </div>
-  </div>
+  </div> -->
+
+
+ <!--  <div style="text-align: center; margin-top: 5%;">
+      <a class="btn btn-danger btn-outline btn-lg"  href="#CONTACTO" data-toggle="modal" data-target="#myModal">¡COTIZA TU LOTE AHORA!</a>
+  </div> -->
 
 <footer>
 <p>Derechos de autor 2017 © | CEIBAS </p>
