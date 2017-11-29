@@ -248,7 +248,7 @@ de Mérida.</p>
         </p>
         <!-- <a data-scroll href="#CONTACTO" aria-pressed="true"><div class="btn-buton"> Cotiza tu Lote</div></a> -->
          <div style="text-align: center; margin-top: 5%;">
-      <a class="btn btn-danger btn-outline btn-lg"  data-scroll href="#CONTACTO" aria-pressed="true"">¡COTIZA TU LOTE AHORA!</a>
+      <a class="btn btn-danger btn-outline btn-lg"  data-scroll href="#CONTACTO" aria-pressed="true"">¡COTIZA TU LOTE!</a>
   </div>
       </div>
     </div>
