@@ -99,6 +99,23 @@ background-repeat: no-repeat;
   text-align: justify;
 }
 
+.master-p{
+  width: 100%;
+}
+
+.master-p img{
+  width: 100%;
+}
+
+.circulo{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin: 120px auto;
+  background: rgba(49, 45, 59, 0.6);
+  color: #fff;
+  padding: 140px 40px;
+}
 /*.seccion2{
 	width: 100%;
 	overflow: hidden;
@@ -151,6 +168,30 @@ background-repeat: no-repeat;
   color: #fff;
   text-align: center;
   margin-top: 1.5%;
+}
+
+
+.alto-asig{
+  height: 200px;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.width-asig{
+  width: 100%;
+}
+
+.seccion5{
+  background: url("../img/fondo.jpg") no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.seccion6{
+  background: url("../img/cincontacto.png");
+  width: 100%;
+  overflow: hidden;
 }
 /*--------------FOOTER----------*/
 footer{

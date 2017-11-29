@@ -139,21 +139,34 @@
     </div>
 
     <div class="section">
-          <div class="col-md-3">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+          <div class="row">
+              <div class="col-md-3">
+              <img src="img/galeria.jpg" class="img-responsive alto-asig">
+            </div>
+            <div class="col-md-3">
+              <img src="img/museo.jpg"
+              class="img-responsive alto-asig">
+            </div>
+            <div class="col-md-3">
+              <img src="img/altabrisa.jpg"
+              class="img-responsive img-rounded alto-asig">
+            </div>
+            <div class="col-md-3">
+              <img src="img/StarMedica.jpg"
+              class="img-responsive alto-asig">
+            </div>
           </div>
-          <div class="col-md-3">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+          <div class="row">
+            <div class="col-md-4">
+            <img src="img/catedral.jpg" class="img-responsive alto-asig width-asig">
           </div>
-          <div class="col-md-3">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive img-rounded">
+          <div class="col-md-4">
+            <img src="img/monumento.jpg" class="img-responsive alto-asig width-asig">
           </div>
-          <div class="col-md-3">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+          <div class="col-md-4">
+            <img src="img/CHICHEn2.jpg"
+            class="img-responsive alto-asig width-asig">
+          </div>
           </div>
     </div>
 </section>
@@ -213,8 +226,65 @@ de Mérida.</p>
 </section>
 
 
-<section class="seccion5" id="CONTACTO">
+<section class="seccion5" id="">
+  <div class="row">
+    <div class="col-md-6">
+      <figure class="master-p">
+        <img src="img/masterplan.png" alt="">
+      </figure>
+    </div>
+    <div class="col-md-6">
+      <div class="circulo">
+        <span>El el momento de invertir seguro.</span>
+        <span>Lotes desde <i>330m2</i> hasta <i>587m2</i> y precio desde <i>$160 m2.</i> Escrituras al momento.
+        Precios disponibles en <i>6, 12 y 24 meses</i> pregunta por nuestros precios por pago de contado.
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="seccion6" id="CONTACTO">
+  <div class="col-md-offset-3 col-md-5">
+    <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="nOMBRE *" required autofocus />
+                </div>            
+                <div class="form-group">
+                    
+                    <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Correo *" required />
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="tel" class="form-control" id="Empresa" name="Empresa" placeholder="Telefono *" required />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="Empresa" name="Empresa" placeholder="Ciudad *" required />
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                    
+                    <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
+                </div>
+                <div class="form-group">                
+                    <input type="submit" class="btn btn-primary" value="Enviar">                
+                </div>
+                <div id="respuesta" style="display: none;"></div>
+            </form>
+  </div>
+  <div class="col-md-4">
+    <p>Nuestros asesores le darán toda la información que necesita</p>
+    <p>Calle 7-A #279-E por 38 y 40 Fraccionamiento del Norte
+      info@zizilche.com
+      (999) 40-61-108
+      Mérida Yucatán, México. C.P 97210
+    </p>
+  </div>
 </section>
 
 <!-- <div class="modal fade" id="myModal" role="dialog">
