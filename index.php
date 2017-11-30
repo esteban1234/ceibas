@@ -162,15 +162,15 @@
           </div>
           <div class="row margen">
             <div class="col-md-4">
-            <img src="img/catedral.jpg" class="img-responsive alto-asig width-asig">
+            <img src="img/catedral01.jpg" class="img-responsive alto-asig width-asig">
             <p class="tit-img">Catedral de Mérida</p>
           </div>
           <div class="col-md-4">
-            <img src="img/monumento.jpg" class="img-responsive alto-asig width-asig">
+            <img src="img/monumento01.jpg" class="img-responsive alto-asig width-asig">
             <p class="tit-img"> Monumento a la Bandera</p>
           </div>
           <div class="col-md-4">
-            <img src="img/CHICHEn2.jpg"
+            <img src="img/chichen01.jpg"
             class="img-responsive alto-asig width-asig">
             <p class="tit-img">Chichén Itzá</p>
           </div>
