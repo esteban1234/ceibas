@@ -187,7 +187,7 @@
         <div class="row">
           <div class="col-md-1 col-md-offset-1">
             <img src="img/dollar.png"
-            class="img-circle img-responsive">
+            class=" img-responsive">
           </div>
           <div class="col-md-4">
             <h3 class="text-left" style="color: #536D2A;">FINANCIAMIENTO</h3>
@@ -197,7 +197,7 @@ propiedad con características competitivas.</p>
           </div>
           <div class="col-md-1">
             <img src="img/herbal-spa-treatment-leaves.png"
-            class="img-circle img-responsive">
+            class=" img-responsive">
           </div>
           <div class="col-md-4">
             <h3 class="text-left" style="color: #536D2A;">CALIDAD DE VIDA</h3>
@@ -209,7 +209,7 @@ naturaleza.</p>
         <div class="row">
           <div class="col-md-1 col-md-offset-1">
             <img src="img/favorite-place.png"
-            class="img-circle img-responsive">
+            class=" img-responsive">
           </div>
           <div class="col-md-4">
             <h3 class="text-left" style="color: #536D2A;">SERVICIOS DE FACIL ACCESO</h3>
@@ -219,7 +219,7 @@ servicios de educación, salud y entretenimiento.</p>
           </div>
           <div class="col-md-1">
             <img src="img/growth.png"
-            class="img-circle img-responsive">
+            class=" img-responsive">
           </div>
           <div class="col-md-4 text-center">
             <h3 class="text-left" style="color: #536D2A;">INVERSION SEGURA</h3>
