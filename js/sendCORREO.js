@@ -1,5 +1,5 @@
 function sendCORREO(){
-	var connect, form, result, txtNOMBRE, txtCORREO,txtTELEFONO, txtCOMENTARIO;
+	var connect, form, result, txtNOMBRE, txtCORREO,txtTELEFONO, txtCOMENTARIO, txtCIUDAD;
 	var exprCORREO = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
 	// var exprNUMERO = /^1[8-9]|[2-5]\d|60$/;
 	// var exprNUMERO.numeric();
@@ -7,8 +7,9 @@ function sendCORREO(){
 	txtCORREO = __('txtCORREO').value;
 	txtTELEFONO = __('txtTELEFONO').value;
     txtCOMENTARIO = __('txtCOMENTARIO').value;
+    txtCIUDAD = __('txtCIUDAD').value;
 
-	if (txtNOMBRE != ''  && txtCORREO != '' && txtTELEFONO != '' && txtCOMENTARIO != ''){
+	if (txtNOMBRE != ''  && txtCORREO != '' && txtTELEFONO != '' && txtCOMENTARIO != '' && txtCIUDAD != ''){
 		if(!exprCORREO.test(txtCORREO)){
 
 			result = '<div class="alert alert-dismissible alert-danger">';
@@ -28,7 +29,7 @@ function sendCORREO(){
 
 		else
 		{
-			form = 'txtNOMBRE=' + txtNOMBRE + '&txtCORREO=' + txtCORREO + '&txtTELEFONO=' + txtTELEFONO +'&txtCOMENTARIO=' + txtCOMENTARIO;
+			form = 'txtNOMBRE=' + txtNOMBRE + '&txtCORREO=' + txtCORREO + '&txtTELEFONO=' + txtTELEFONO +'&txtCOMENTARIO=' + txtCOMENTARIO +'&txtCIUDAD=' + txtCIUDAD;
 			connect =  window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
 			connect.onreadystatechange = function(){
 				if(connect.readyState == 4 && connect.status == 200){

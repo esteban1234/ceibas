@@ -60,6 +60,9 @@
 
         </ul>
     </nav>
+     <div class="op-menu">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
   </div>
 
 
@@ -73,9 +76,9 @@
   <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1 style="color: #727A42;">CEIBAS ZIZILCHE</h1>
-            <h3 style="color: #7FA51A;">Tu vida en el Norte de Mérida</h3>
+          <div class="col-sm-12 col-md-6">
+            <h1 class="tit-cz" style="color: #727A42;">CEIBAS ZIZILCHE</h1>
+            <h3 class="subtit-cz" style="color: #7FA51A;">Tu vida en el Norte de Mérida</h3>
             <p class="texto">Invertir en Ceibas Zizilche, es invertir en una propiedad para construir al Norte de Mérida, zona reconocida por su exclusividad residencial y alta plusvalía, que ofrece todas las facilidades para vivir con comodidad en un entorno relajado y en armonía con la naturaleza. <br>
             El desarrollo se localiza en el kilómetro 15 de la carretera Mérida-Progreso, en
             una zona de gran expectativa de exclusividad residencial, con acceso a tan sólo 5
@@ -89,9 +92,8 @@
             ¡Adquiere tu patrimonio hoy y disfruta de los beneficios el día de mañana!
             </p>
           </div>
-          <div class="col-md-6">
-            <img src="img/logo.png"
-            class="img-responsive">
+          <div class="col-sm-12 col-md-6 br">
+            <img src="img/logo.png" class="img-responsive img-cz">
           </div>
         </div>
       </div>
@@ -111,12 +113,14 @@
   <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-5"><p class="tamano"><b class="colorb">EL DESTINO</b><br>
-              <b class="colorb">IDEAL PARA </b> <br>
+          <div class="col-sm-12 col-md-5">
+            <p class="tamano delete-br"><b class="colorb delete-br">EL DESTINO</b><br>
+              <b class="colorb delete-br">IDEAL PARA </b> <br>
               VIVIR E INVERTIR<br>
               EN UN<br>
-              PATRIMONIO</p></div>
-          <div class="col-md-7"><p class="texto2">
+              PATRIMONIO</p>
+            </div>
+          <div class="col-sm-12 col-md-7"><p class="texto2">
             <b class="negro">Yucatán</b> es la cuna de las maravillas, crecerá en los próximos años con la llegada de
             nuevos negocios, <b class="negro">Mérida</b> ha sido considerada a nivel nacional como una de las mejores
             ciudades de México, para la vida familiar, los negocios y las inversiones, dada su alta
@@ -140,36 +144,36 @@
 
     <div class="section"><br><br><br>
           <div class="row margen">
-            <div class="col-md-3">
+            <div class="col-sm-6 col-md-3">
               <img src="img/galeria.jpg" class="img-responsive alto-asig width-asig">
               <p class="tit-img">Galerías</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-6 col-md-3">
               <img src="img/museo.jpg"
               class="img-responsive alto-asig width-asig">
               <p class="tit-img1">Museo Maya</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-6 col-md-3">
               <img src="img/altabrisa.jpg"
               class="img-responsive alto-asig width-asig">
               <p class="tit-img">Altabrisa</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-6 col-md-3">
               <img src="img/StarMedica.jpg"
               class="img-responsive alto-asig width-asig">
               <p class="tit-img">Star Medica</p>
             </div>
           </div>
           <div class="row margen">
-            <div class="col-md-4">
+            <div class="col-sm-6 col-md-4">
             <img src="img/catedral01.jpg" class="img-responsive alto-asig width-asig">
             <p class="tit-img">Catedral de Mérida</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-6 col-md-4">
             <img src="img/monumento01.jpg" class="img-responsive alto-asig width-asig">
             <p class="tit-img"> Monumento a la Bandera</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-6 col-md-4">
             <img src="img/chichen01.jpg"
             class="img-responsive alto-asig width-asig">
             <p class="tit-img">Chichén Itzá</p>
@@ -185,45 +189,41 @@
 </figure> <br><br>
 <div class="container">
         <div class="row">
-          <div class="col-md-1 col-md-offset-1">
-            <img src="img/dollar.png"
-            class=" img-responsive">
+          <div class="col-sm-1 col-md-1 col-md-offset-1">
+            <img src="img/dollar.png" class=" img-responsive img-fcsi">
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left" style="color: #536D2A;">FINANCIAMIENTO</h3>
-            <p class="text-left" style="font-size: 16px;">Ofrecemos todas las opciones de
+          <div class="col-sm-5 col-md-4">
+            <h3 class="text-left tit-fcsi" style="color: #536D2A;">FINANCIAMIENTO</h3>
+            <p class="text-left txt-fcsi" style="font-size: 16px;">Ofrecemos todas las opciones de
 financiamiento para la adquisición de una
 propiedad con características competitivas.</p>
           </div>
-          <div class="col-md-1">
-            <img src="img/herbal-spa-treatment-leaves.png"
-            class=" img-responsive">
+          <div class="col-sm-1 col-md-1">
+            <img src="img/herbal-spa-treatment-leaves.png" class=" img-responsive img-fcsi">
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left" style="color: #536D2A;">CALIDAD DE VIDA</h3>
-            <p class="text-left" style="font-size: 16px;">Estilo de vida de muy alta calidad en una
+          <div class="col-sm-5 col-md-4">
+            <h3 class="text-left tit-fcsi" style="color: #536D2A;">CALIDAD DE VIDA</h3>
+            <p class="text-left txt-fcsi" style="font-size: 16px;">Estilo de vida de muy alta calidad en una
 atmósfera de tranquilidad y convivencia con la
 naturaleza.</p>
           </div>
         </div> <br>
         <div class="row">
-          <div class="col-md-1 col-md-offset-1">
-            <img src="img/favorite-place.png"
-            class=" img-responsive">
+          <div class="col-sm-1 col-md-1 col-md-offset-1">
+            <img src="img/favorite-place.png" class=" img-responsive img-fcsi">
           </div>
-          <div class="col-md-4">
-            <h3 class="text-left" style="color: #536D2A;">SERVICIOS DE FACIL ACCESO</h3>
-            <p class="text-left" style="font-size: 16px;">Estratégicamente localizado y diseñado para que sus
+          <div class="col-sm-5 col-md-4">
+            <h3 class="text-left tit-fcsi" style="color: #536D2A;">SERVICIOS DE FACIL ACCESO</h3>
+            <p class="text-left txt-fcsi" style="font-size: 16px;">Estratégicamente localizado y diseñado para que sus
 habitantes puedan tener acceso de manera sencilla a
 servicios de educación, salud y entretenimiento.</p>
           </div>
-          <div class="col-md-1">
-            <img src="img/growth.png"
-            class=" img-responsive">
+          <div class="col-sm-1 col-md-1">
+            <img src="img/growth.png" class=" img-responsive img-fcsi">
           </div>
-          <div class="col-md-4 text-center">
-            <h3 class="text-left" style="color: #536D2A;">INVERSION SEGURA</h3>
-            <p class="text-left" style="font-size: 16px;">Ubicación en una de las zonas de más rápido
+          <div class="col-sm-5 col-md-4 text-center">
+            <h3 class="text-left tit-fcsi" style="color: #536D2A;">INVERSION SEGURA</h3>
+            <p class="text-left txt-fcsi" style="font-size: 16px;">Ubicación en una de las zonas de más rápido
 crecimiento en la región, al norte de la ciudad
 de Mérida.</p>
           </div>
@@ -234,13 +234,13 @@ de Mérida.</p>
 
 
 <section class="seccion5" id="">
-  <div class="row">
-    <div class="col-md-6">
+  <div class="row h-ttal">
+    <div class="col-sm-6 col-md-6">
       <figure class="master-p">
         <img src="img/masterplan.png" alt="">
       </figure>
     </div>
-    <div class="col-md-6">
+    <div class="col-sm-6 col-md-6">
       <div class="circulo">
         <p class="text-seg">El el momento de invertir seguro.</p>
         <p class="text-cir">Lotes desde <span>330m2</span> hasta <span>587m2</span> y precio desde <span>$160 m2.</span> Escrituras al momento.
@@ -249,48 +249,49 @@ de Mérida.</p>
         <!-- <a data-scroll href="#CONTACTO" aria-pressed="true"><div class="btn-buton"> Cotiza tu Lote</div></a> -->
          <div style="text-align: center; margin-top: 5%;">
       <a class="btn btn-danger btn-outline btn-lg"  data-scroll href="#CONTACTO" aria-pressed="true"">¡COTIZA TU LOTE!</a>
-  </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <section class="seccion6" id="CONTACTO">
-  <div class="col-md-offset-3 col-md-5">
+  <div class="col-sm-6 col-md-offset-3 col-md-5">
     <h2 class="h1-c">CONTACTANOS</h2>
-    <form role="form" id="Formulario">
+    <form role="form" id="Formulario" onSubmit="return false">
                 <div class="form-group">
-                    <input type="text" class="form-control" id="" name="Nombre" placeholder="Nombre *" required/>
+                    <input type="text" class="form-control" id="txtNOMBRE" name="Nombre" placeholder="Nombre *" required/>
                 </div>            
                 <div class="form-group">
                     
-                    <input type="email" class="form-control" id="" name="Correo" placeholder="Correo *" required />
+                    <input type="email" class="form-control" id="txtCORREO" name="Correo" placeholder="Correo *" required />
                 </div>
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="tel" class="form-control" id="" name="Empresa" placeholder="Telefono *" required />
+                      <input type="tel" class="form-control" id="txtTELEFONO" name="Empresa" placeholder="Telefono *" required />
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="" name="Empresa" placeholder="Ciudad *" required />
+                      <input type="text" class="form-control" id="txtCIUDAD" name="Empresa" placeholder="Ciudad *" required />
                     </div>
                   </div>
                 </div>
                 
                 <div class="form-group">
                     
-                    <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
+                    <textarea rows="5" cols="30" class="form-control" id="txtCOMENTARIO" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
                 </div>
+                <div id="_AJAX_PRE_"></div>
                 <div class="form-group">                
-                    <input type="submit" class="btn" value="Enviar">                
+                    <input type="submit" class="btn" value="Enviar" onclick="sendCORREO()">                
                 </div>
                 <div id="respuesta" style="display: none;"></div>
             </form>
   </div>
-  <div class="col-md-3">
-     <img src="img/ceibas.png" class="img-responsive img-cei">
+  <div class="col-sm-6 col-md-3">
+    <img src="img/ceibas.png" class="img-responsive img-cei">
     <p class="tit-p">Nuestros asesores le darán toda la información que necesita</p>
     <p class="dir-p">Calle 7-A #279-E por 38 y 40 Fraccionamiento del Norte <br/> 
       info@zizilche.com <br/>

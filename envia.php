@@ -10,6 +10,7 @@ $mail = new PHPMailer();
 $nombre = $_POST['txtNOMBRE'];
 $telefono = $_POST['txtTELEFONO'];
 $correo = $_POST['txtCORREO'];
+$ciudad = $_POST['txtCIUDAD'];
 $comentario = $_POST['txtCOMENTARIO'];
 
 // if (filter_var($, FILTER_VALIDATE_EMAIL)) {
@@ -22,7 +23,8 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@zizilche.com");
+// $mail->addAddress("info@zizilche.com");
+$mail->addAddress("ballina.santiago@gmail.com");
 
 
 
@@ -38,6 +40,7 @@ $mail->Body = "
                 <body  style='border:.5px solid rgba('0,0,0,0.8');background:#fff'>                
                 <h1 style='text-align:center;  font-weight: bold'>ZIZILCHE</h1>
                 <b>Telefono: </b>$telefono<br/>
+                <b>Ciudad: </b>$ciudad<br/>
                 <div style='color:#747474; padding:20px 10px; text-align: justify'>$comentario <div><br/>
 
                 </body>
